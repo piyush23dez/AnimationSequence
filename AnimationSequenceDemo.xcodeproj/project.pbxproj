@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B9E625E1E3C69000058FE5A /* Summit.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E625B1E3C69000058FE5A /* Summit.mp4 */; };
+		4B9E625F1E3C69000058FE5A /* Summit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E625C1E3C69000058FE5A /* Summit.png */; };
+		4B9E62601E3C69000058FE5A /* applelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E625D1E3C69000058FE5A /* applelogo.png */; };
+		4B9E62621E3C98020058FE5A /* airplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E62611E3C98020058FE5A /* airplay.png */; };
 		4BDC76991E3C63B800B538E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC76981E3C63B800B538E3 /* AppDelegate.swift */; };
 		4BDC769B1E3C63B800B538E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC769A1E3C63B800B538E3 /* ViewController.swift */; };
 		4BDC769E1E3C63B800B538E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDC769C1E3C63B800B538E3 /* Main.storyboard */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B9E625B1E3C69000058FE5A /* Summit.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Summit.mp4; sourceTree = "<group>"; };
+		4B9E625C1E3C69000058FE5A /* Summit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Summit.png; sourceTree = "<group>"; };
+		4B9E625D1E3C69000058FE5A /* applelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applelogo.png; sourceTree = "<group>"; };
+		4B9E62611E3C98020058FE5A /* airplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplay.png; sourceTree = "<group>"; };
 		4BDC76951E3C63B800B538E3 /* AnimationSequenceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSequenceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDC76981E3C63B800B538E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BDC769A1E3C63B800B538E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		4BDC768C1E3C63B800B538E3 = {
 			isa = PBXGroup;
 			children = (
+				4B9E625B1E3C69000058FE5A /* Summit.mp4 */,
+				4B9E62611E3C98020058FE5A /* airplay.png */,
+				4B9E625C1E3C69000058FE5A /* Summit.png */,
+				4B9E625D1E3C69000058FE5A /* applelogo.png */,
 				4BDC76971E3C63B800B538E3 /* AnimationSequenceDemo */,
 				4BDC76961E3C63B800B538E3 /* Products */,
 			);
@@ -120,8 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9E62621E3C98020058FE5A /* airplay.png in Resources */,
+				4B9E625F1E3C69000058FE5A /* Summit.png in Resources */,
+				4B9E62601E3C69000058FE5A /* applelogo.png in Resources */,
 				4BDC76A01E3C63B800B538E3 /* Assets.xcassets in Resources */,
 				4BDC769E1E3C63B800B538E3 /* Main.storyboard in Resources */,
+				4B9E625E1E3C69000058FE5A /* Summit.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				4BDC76A61E3C63B800B538E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
